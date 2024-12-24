@@ -22,6 +22,6 @@
 ![](https://github-contributor-stats.vercel.app/api?username=ThaminduDisnaZ&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=ThaminduDisnaZ&icon=2&color=0)](https://visitcount.itsvg.in)
+[![Thamindu Disna profile views](https://u8views.com/api/v1/github/profiles/156172744/views/day-week-month-total-count.svg)](https://u8views.com/github/ThaminduDisnaZ)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
