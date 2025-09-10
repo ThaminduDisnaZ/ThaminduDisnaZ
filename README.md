@@ -29,4 +29,12 @@
 ---
 [![Thamindu Disna profile views](https://u8views.com/api/v1/github/profiles/156172744/views/day-week-month-total-count.svg)](https://u8views.com/github/ThaminduDisnaZ)
 
+
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ThaminduDisnaZ/ThaminduDisnaZ/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ThaminduDisnaZ/ThaminduDisnaZ/output/pacman-contribution-graph.svg">
+  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/ThaminduDisnaZ/ThaminduDisnaZ/output/pacman-contribution-graph.svg">
+</picture>
+
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
