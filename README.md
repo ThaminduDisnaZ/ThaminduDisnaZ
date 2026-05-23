@@ -14,7 +14,6 @@ I am a dedicated **Software Engineering Undergraduate** specializing in building
 
 - 🔭 **Current Focus:** Developing a standalone **Hospital Management System** using JavaFX and exploring **Microservices Architecture**.
 - 📱 **Mobile Dev:** Building a privacy-focused **YouTube client** inspired by NewPipe.
-- ⚙️ **The "How it Works" Mindset:** From disassembling **CD 185 Roadmaster engines** to debugging complex kernels, I thrive on reverse-engineering and optimization.
 - 🔐 **Cybersecurity:** Actively learning **Penetration Testing** and vulnerability assessment to build more secure software.
 
 ---
