@@ -24,7 +24,7 @@ I am a dedicated **Software Engineering Undergraduate** specializing in building
 | :--- | :--- |
 | **Languages** | Java, Python, JavaScript, TypeScript, PHP, C++, Bash |
 | **Frontend** | React.js, Next.js, React Native, Tailwind CSS, JavaFX |
-| **Backend** | Node.js, Express.js, Spring Boot, Laravel |
+| **Backend** | Node.js, Express.js, Spring Boot, Laravel, Kotlin |
 | **Databases** | MySQL, MongoDB, Firebase |
 | **Tools** | Git, Docker, Kali Linux, Postman, Figma |
 
