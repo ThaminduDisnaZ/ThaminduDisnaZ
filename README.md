@@ -9,14 +9,10 @@
   </picture>
 </div>
 
-<h2 align="center">✦ A year of showing up ✦</h2>
+<h2 align="center">✦ My GitHub activity ✦</h2>
 
 <div align="center">
-  <img src="./assets/isocalendar.svg" alt="My isometric GitHub contribution calendar, snapshot from October 2025 to October 2026" width="100%" />
-</div>
-
-<div align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" alt="3D night view of my GitHub contributions" width="100%" />
+  <img src="./profile-3d-contrib/profile-night-view.svg" alt="GitHub generated 3D night view using my real contribution data" width="100%" />
 </div>
 
 <div align="center">
@@ -25,7 +21,7 @@
 </div>
 
 <div align="center">
-  <img src="./assets/contribution-snake-dark.svg" alt="Animated dark contribution snake tracing my GitHub contribution grid" width="100%" />
+  <img src="./assets/contribution-snake-dark.svg" alt="Live generated snake based on my real GitHub contribution grid" width="100%" />
 </div>
 
 <div align="center">
