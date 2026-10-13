@@ -1,0 +1,36 @@
+name: Generate 3D contribution graph
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - assets/profile_hud.svg
+      - .github/workflows/3d-contribution-graph.yml
+  schedule:
+    - cron: "23 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Generate 3D contribution SVGs
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ThaminduDisnaZ
+      - name: Commit generated graphs
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add -A .
+          if git diff --cached --quiet; then
+            exit 0
+          fi
+          git commit -m "Update 3D contribution graphs"
+          git push

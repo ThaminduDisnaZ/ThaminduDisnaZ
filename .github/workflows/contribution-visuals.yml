@@ -1,0 +1,39 @@
+name: Update contribution snake
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - README.md
+      - assets/profile_hud.svg
+      - assets/profile_hud_mobile.svg
+      - .github/workflows/contribution-visuals.yml
+  schedule:
+    - cron: "17 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate dark contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ThaminduDisnaZ
+          outputs: |
+            dist/contribution-snake.svg?palette=github-dark
+            dist/contribution-snake-dark.svg?palette=github-dark&color_snake=%2322d3ee
+      - name: Update SVGs on main
+        run: |
+          cp dist/contribution-snake.svg assets/contribution-snake.svg
+          cp dist/contribution-snake-dark.svg assets/contribution-snake-dark.svg
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add assets/contribution-snake.svg assets/contribution-snake-dark.svg
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Update contribution snake"
+          git push
